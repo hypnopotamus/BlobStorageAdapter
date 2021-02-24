@@ -19,12 +19,8 @@ namespace BlobStorageAdapter.DataAccess
             {
                 var fileClient = _blobClient.GetBlobClient(file.Name);
                 using var fileContent = (await fileClient.DownloadAsync()).Value;
-                await using var contentStream = new MemoryStream();
 
-                await fileContent.Content.CopyToAsync(contentStream);
-                contentStream.Position = 0;
-
-                using var reader = new StreamReader(contentStream);
+                using var reader = new StreamReader(fileContent.Content);
                 yield return (file.Name, await reader.ReadToEndAsync());
             }
         }

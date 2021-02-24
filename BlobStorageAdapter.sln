@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorageAdapter", "BlobStorageAdapter\BlobStorageAdapter.csproj", "{84785604-F323-4FDE-AC40-FECABFE3514D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorageAdapter", "BlobStorageAdapter\BlobStorageAdapter.csproj", "{84785604-F323-4FDE-AC40-FECABFE3514D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerDaemon", "DockerDaemon\DockerDaemon.csproj", "{7E20370C-4F0F-43B4-9BFD-242CBA305B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorageAdapter.Tests", "BlobStorageAdapter.Tests\BlobStorageAdapter.Tests.csproj", "{29AE3E4E-E54C-4ADC-B984-25A1CB2CD45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorageAdapter.TestDoubles", "BlobStorageAdapter.TestDoubles\BlobStorageAdapter.TestDoubles.csproj", "{2E2B8ECF-6340-4F03-AD01-518C708FBA8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{84785604-F323-4FDE-AC40-FECABFE3514D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84785604-F323-4FDE-AC40-FECABFE3514D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84785604-F323-4FDE-AC40-FECABFE3514D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E20370C-4F0F-43B4-9BFD-242CBA305B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E20370C-4F0F-43B4-9BFD-242CBA305B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E20370C-4F0F-43B4-9BFD-242CBA305B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E20370C-4F0F-43B4-9BFD-242CBA305B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AE3E4E-E54C-4ADC-B984-25A1CB2CD45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AE3E4E-E54C-4ADC-B984-25A1CB2CD45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AE3E4E-E54C-4ADC-B984-25A1CB2CD45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AE3E4E-E54C-4ADC-B984-25A1CB2CD45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2B8ECF-6340-4F03-AD01-518C708FBA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2B8ECF-6340-4F03-AD01-518C708FBA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2B8ECF-6340-4F03-AD01-518C708FBA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2B8ECF-6340-4F03-AD01-518C708FBA8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
